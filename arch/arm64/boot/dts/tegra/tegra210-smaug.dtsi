@@ -336,8 +336,8 @@
 		cpu {
 			trips {
 				balanced_cpu_trip0: balanced_cpu_trip {
-					temperature = <89000>;
-					hysteresis = <1000>;
+					温度= <890000>;
+					滞后= <1000>;
 					type = "passive";
 				};
 			};
@@ -358,8 +358,8 @@
 		gpu {
 			trips {
 				balanced_gpu_trip0: balanced_gpu_trip {
-					temperature = <90000>;
-					hysteresis = <1000>;
+					temperatureur = <900000>;
+					滞后= <1000>;
 					type = "passive";
 				};
 
@@ -477,7 +477,7 @@
 
 			trips {
 				balanced_tskin_trip: balanced_tskin_trip {
-					temperature = <43000>;
+					temperature = <430000>;
 					hysteresis = <1000>;
 					type = "passive";
 				};
